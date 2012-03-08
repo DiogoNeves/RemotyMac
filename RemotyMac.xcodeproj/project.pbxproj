@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C847CAB1509389D009329BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C847CAA1509389D009329BF /* Cocoa.framework */; };
+		5C847CB51509389D009329BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C847CB31509389D009329BF /* InfoPlist.strings */; };
+		5C847CB71509389D009329BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C847CB61509389D009329BF /* main.m */; };
+		5C847CBB1509389D009329BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C847CB91509389D009329BF /* Credits.rtf */; };
+		5C847CBE1509389D009329BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C847CBD1509389D009329BF /* AppDelegate.m */; };
+		5C847CC11509389E009329BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C847CBF1509389E009329BF /* MainMenu.xib */; };
+		5C847CC41509389E009329BF /* RemotyMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C847CC21509389E009329BF /* RemotyMac.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C847CA61509389D009329BF /* RemotyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C847CAA1509389D009329BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5C847CAD1509389D009329BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5C847CAE1509389D009329BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5C847CAF1509389D009329BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C847CB21509389D009329BF /* RemotyMac-Info.plist */ = {isa = PBXFileReference; path = "RemotyMac-Info.plist"; sourceTree = "<group>"; };
+		5C847CB41509389D009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C847CB61509389D009329BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C847CB81509389D009329BF /* RemotyMac-Prefix.pch */ = {isa = PBXFileReference; path = "RemotyMac-Prefix.pch"; sourceTree = "<group>"; };
+		5C847CBA1509389D009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5C847CBC1509389D009329BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C847CBD1509389D009329BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C847CC01509389E009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C847CC31509389E009329BF /* RemotyMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemotyMac.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C847CA31509389D009329BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C847CAB1509389D009329BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C847C9B1509389D009329BF = {
+			isa = PBXGroup;
+			children = (
+				5C847CB01509389D009329BF /* RemotyMac */,
+				5C847CA91509389D009329BF /* Frameworks */,
+				5C847CA71509389D009329BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C847CA71509389D009329BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C847CA61509389D009329BF /* RemotyMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C847CA91509389D009329BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C847CAA1509389D009329BF /* Cocoa.framework */,
+				5C847CAC1509389D009329BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C847CAC1509389D009329BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C847CAD1509389D009329BF /* AppKit.framework */,
+				5C847CAE1509389D009329BF /* CoreData.framework */,
+				5C847CAF1509389D009329BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5C847CB01509389D009329BF /* RemotyMac */ = {
+			isa = PBXGroup;
+			children = (
+				5C847CBC1509389D009329BF /* AppDelegate.h */,
+				5C847CBD1509389D009329BF /* AppDelegate.m */,
+				5C847CBF1509389E009329BF /* MainMenu.xib */,
+				5C847CC21509389E009329BF /* RemotyMac.xcdatamodeld */,
+				5C847CB11509389D009329BF /* Supporting Files */,
+			);
+			path = RemotyMac;
+			sourceTree = "<group>";
+		};
+		5C847CB11509389D009329BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C847CB21509389D009329BF /* RemotyMac-Info.plist */,
+				5C847CB31509389D009329BF /* InfoPlist.strings */,
+				5C847CB61509389D009329BF /* main.m */,
+				5C847CB81509389D009329BF /* RemotyMac-Prefix.pch */,
+				5C847CB91509389D009329BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C847CA51509389D009329BF /* RemotyMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C847CC71509389E009329BF /* Build configuration list for PBXNativeTarget "RemotyMac" */;
+			buildPhases = (
+				5C847CA21509389D009329BF /* Sources */,
+				5C847CA31509389D009329BF /* Frameworks */,
+				5C847CA41509389D009329BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemotyMac;
+			productName = RemotyMac;
+			productReference = 5C847CA61509389D009329BF /* RemotyMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C847C9D1509389D009329BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Wildbunny Ltd";
+			};
+			buildConfigurationList = 5C847CA01509389D009329BF /* Build configuration list for PBXProject "RemotyMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C847C9B1509389D009329BF;
+			productRefGroup = 5C847CA71509389D009329BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C847CA51509389D009329BF /* RemotyMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C847CA41509389D009329BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C847CB51509389D009329BF /* InfoPlist.strings in Resources */,
+				5C847CBB1509389D009329BF /* Credits.rtf in Resources */,
+				5C847CC11509389E009329BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C847CA21509389D009329BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C847CB71509389D009329BF /* main.m in Sources */,
+				5C847CBE1509389D009329BF /* AppDelegate.m in Sources */,
+				5C847CC41509389E009329BF /* RemotyMac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C847CB31509389D009329BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C847CB41509389D009329BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C847CB91509389D009329BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C847CBA1509389D009329BF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5C847CBF1509389E009329BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C847CC01509389E009329BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C847CC51509389E009329BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C847CC61509389E009329BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C847CC81509389E009329BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemotyMac/RemotyMac-Prefix.pch";
+				INFOPLIST_FILE = "RemotyMac/RemotyMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C847CC91509389E009329BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemotyMac/RemotyMac-Prefix.pch";
+				INFOPLIST_FILE = "RemotyMac/RemotyMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C847CA01509389D009329BF /* Build configuration list for PBXProject "RemotyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C847CC51509389E009329BF /* Debug */,
+				5C847CC61509389E009329BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C847CC71509389E009329BF /* Build configuration list for PBXNativeTarget "RemotyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C847CC81509389E009329BF /* Debug */,
+				5C847CC91509389E009329BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C847CC21509389E009329BF /* RemotyMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C847CC31509389E009329BF /* RemotyMac.xcdatamodel */,
+			);
+			currentVersion = 5C847CC31509389E009329BF /* RemotyMac.xcdatamodel */;
+			path = RemotyMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C847C9D1509389D009329BF /* Project object */;
+}

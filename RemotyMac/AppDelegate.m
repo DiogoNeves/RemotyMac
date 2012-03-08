@@ -7,6 +7,66 @@
 //
 
 #import "AppDelegate.h"
+#import <IOKit/hidsystem/ev_keymap.h>
+
+@implementation MediaKeyApplication
+- (BOOL)mediaKeyEvent:(int)key state:(BOOL)state repeat:(BOOL)repeat
+{
+	switch (key)
+	{
+		case NX_KEYTYPE_PLAY:
+			if (!state)
+				NSLog(@"PLAY");
+			break;
+			
+		case NX_KEYTYPE_FAST:
+			if (!state)
+				NSLog(@"NEXT");
+			break;
+			
+		case NX_KEYTYPE_REWIND:
+			if (!state)
+				NSLog(@"PREVIOUS");
+			break;
+			
+		case NX_KEYTYPE_SOUND_UP:
+			if (!state)
+				NSLog(@"VOLUME UP");
+			break;
+			
+		case NX_KEYTYPE_SOUND_DOWN:
+			if (!state)
+				NSLog(@"VOLUME DOWN");
+			break;
+			
+		case NX_KEYTYPE_MUTE:
+			if (!state)
+				NSLog(@"MUTE");
+			break;
+			
+		default:
+			return FALSE;
+	}
+	
+	return TRUE;
+}
+
+- (void)sendEvent: (NSEvent*)event
+{
+	if( [event type] == NSSystemDefined && [event subtype] == 8 )
+	{
+		int keyCode = (([event data1] & 0xFFFF0000) >> 16);
+		int keyFlags = ([event data1] & 0x0000FFFF);
+		int keyState = (((keyFlags & 0xFF00) >> 8)) ==0xA;
+		int keyRepeat = (keyFlags & 0x1);
+		
+		if ([self mediaKeyEvent: keyCode state: keyState repeat: keyRepeat])
+			return;
+	}
+	
+	[super sendEvent:event];
+}
+@end
 
 @implementation AppDelegate
 

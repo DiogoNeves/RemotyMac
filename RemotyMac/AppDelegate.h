@@ -8,6 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
+@interface MediaKeyApplication : NSApplication
+
+-(BOOL)mediaKeyEvent:(int)key state:(BOOL)state repeat:(BOOL)repeat;
+
+@end
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;

@@ -14,6 +14,7 @@
 		5C847CBE1509389D009329BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C847CBD1509389D009329BF /* AppDelegate.m */; };
 		5C847CC11509389E009329BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C847CBF1509389E009329BF /* MainMenu.xib */; };
 		5C847CC41509389E009329BF /* RemotyMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C847CC21509389E009329BF /* RemotyMac.xcdatamodeld */; };
+		5C847CCB15093C33009329BF /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C847CCA15093C33009329BF /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		5C847CAD1509389D009329BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5C847CAE1509389D009329BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5C847CAF1509389D009329BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5C847CB21509389D009329BF /* RemotyMac-Info.plist */ = {isa = PBXFileReference; path = "RemotyMac-Info.plist"; sourceTree = "<group>"; };
+		5C847CB21509389D009329BF /* RemotyMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemotyMac-Info.plist"; sourceTree = "<group>"; };
 		5C847CB41509389D009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C847CB61509389D009329BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C847CB81509389D009329BF /* RemotyMac-Prefix.pch */ = {isa = PBXFileReference; path = "RemotyMac-Prefix.pch"; sourceTree = "<group>"; };
+		5C847CB81509389D009329BF /* RemotyMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemotyMac-Prefix.pch"; sourceTree = "<group>"; };
 		5C847CBA1509389D009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5C847CBC1509389D009329BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C847CBC1509389D009329BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C847CBD1509389D009329BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5C847CC01509389E009329BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5C847CC31509389E009329BF /* RemotyMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemotyMac.xcdatamodel; sourceTree = "<group>"; };
+		5C847CCA15093C33009329BF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C847CCB15093C33009329BF /* IOKit.framework in Frameworks */,
 				5C847CAB1509389D009329BF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		5C847C9B1509389D009329BF = {
 			isa = PBXGroup;
 			children = (
+				5C847CCA15093C33009329BF /* IOKit.framework */,
 				5C847CB01509389D009329BF /* RemotyMac */,
 				5C847CA91509389D009329BF /* Frameworks */,
 				5C847CA71509389D009329BF /* Products */,
